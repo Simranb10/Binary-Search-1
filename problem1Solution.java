@@ -1,6 +1,6 @@
 //Time Complexity : O(log n)
 //Space Complexity : O(1)
-
+//Search a 2D Matrix
 public class problem1Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         int r = matrix.length;

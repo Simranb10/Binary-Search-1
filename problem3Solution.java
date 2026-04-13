@@ -1,5 +1,6 @@
 //Time complexity : O(log n)
 //Space complexity : O(1)
+//Search in Infinite sorted array
 
 public class problem3Solution {
     public int search(ArrayReader reader, int target) {
