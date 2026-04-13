@@ -10,7 +10,7 @@ public class problem1Solution {
         int right = (r*c)-1;
 
         while (left <= right) {
-            int mid = (left + right)/2;
+            int mid = left + (right - left)/2;
             int midRow = mid/c;
             int midCol = mid%c;
             if(matrix[midRow][midCol]== target) {
